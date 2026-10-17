@@ -1,6 +1,6 @@
 # Wonderous Wardrobes
 
-**1.3.0-phase2b.1 development baseline · Hytale =0.7.2 · Falk Interactive Studios**
+**1.3.0 · Hytale =0.7.2 · Falk Interactive Studios**
 
 Turn decorative wardrobes into functional storage while preserving their familiar appearance and native opening/closing behavior. Explore supported generated structures for contextual loot, or place your own wardrobes for storage.
 
