@@ -1,0 +1,13 @@
+/Builds/
+/DevTesting/
+/ReleasePrep/
+/Rollbacks/
+/Version Backups/
+/tools/
+/AGENTS.md
+/PREFAB_UPDATE_SCAN.md
+/*.zip
+__pycache__/
+/WonderousWardrobes_v1.0/Server/Prefabs/Testing/
+/WonderousWardrobes_v1.0/Server/Prefabs/Blocksets/
+*.log

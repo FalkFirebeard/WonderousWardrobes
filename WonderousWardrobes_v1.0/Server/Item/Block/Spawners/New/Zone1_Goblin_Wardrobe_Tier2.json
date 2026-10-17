@@ -1,0 +1,15 @@
+{
+    "Entries":  [
+                    {
+                        "Name":  "Furniture_Crude_Wardrobe",
+                        "Weight":  100,
+                        "Components":  {
+                                           "Components":  {
+                                                              "ItemContainerBlock":  {
+                                                                                         "Droplist":  "Zone1_Goblin_Tier2"
+                                                                                     }
+                                                          }
+                                       }
+                    }
+                ]
+}

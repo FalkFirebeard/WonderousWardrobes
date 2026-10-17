@@ -1,0 +1,23 @@
+{
+  "Entries": [
+    {
+      "Name": "Furniture_Ancient_Wardrobe",
+      "Weight": 100,
+      "Components": {
+        "Components": {
+          "ItemContainerBlock": {
+            "Droplist": "Zone2_Undead_Tier3"
+          },
+          "Unknown": {
+            "Components": {
+              "HyThiefOwnershipProof": {
+                "Owned": true,
+                "Scope": "NEARBY"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

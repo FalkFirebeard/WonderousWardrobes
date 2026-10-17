@@ -1,0 +1,15 @@
+{
+    "Entries":  [
+                    {
+                        "Name":  "Furniture_Village_Wardrobe",
+                        "Weight":  100,
+                        "Components":  {
+                                           "Components":  {
+                                                              "ItemContainerBlock":  {
+                                                                                         "Droplist":  "Zone3_Encounters_Tier2"
+                                                                                     }
+                                                          }
+                                       }
+                    }
+                ]
+}

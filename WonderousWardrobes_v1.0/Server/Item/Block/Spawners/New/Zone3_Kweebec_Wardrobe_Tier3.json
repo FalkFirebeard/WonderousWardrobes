@@ -1,0 +1,26 @@
+{
+    "Entries":  [
+                    {
+                        "Name":  "Furniture_Kweebec_Wardrobe",
+                        "Weight":  100,
+                        "Components":  {
+                                           "Components":  {
+                                                              "ItemContainerBlock":  {
+                                                                                         "Droplist":  "Zone3_Kweebec_Tier3"
+                                                                                     }
+                                                          }
+                                       }
+                    },
+                    {
+                        "Name":  "Empty",
+                        "Weight":  100,
+                        "Components":  {
+                                           "Components":  {
+                                                              "ItemContainerBlock":  {
+                                                                                         "Droplist":  null
+                                                                                     }
+                                                          }
+                                       }
+                    }
+                ]
+}

@@ -1,0 +1,35 @@
+{
+  "Entries": [
+    {
+      "Name": "Furniture_Kweebec_Wardrobe",
+      "Weight": 100,
+      "Components": {
+        "Components": {
+          "ItemContainerBlock": {
+            "Droplist": "Zone3_Kweebec_Tier1"
+          },
+          "Unknown": {
+            "Components": {
+              "HyThiefOwnershipProof": {
+                "Owned": true,
+                "Scope": "FACTION",
+                "Faction": "Kweebec"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "Name": "Empty",
+      "Weight": 20,
+      "Components": {
+        "Components": {
+          "ItemContainerBlock": {
+            "Droplist": null
+          }
+        }
+      }
+    }
+  ]
+}

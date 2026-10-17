@@ -1,0 +1,24 @@
+{
+  "Entries": [
+    {
+      "Name": "Furniture_Temple_Dark_Wardrobe",
+      "Weight": 100,
+      "Components": {
+        "Components": {
+          "ItemContainerBlock": {
+            "Droplist": "Zone3_Outlander_Tier3"
+          },
+          "Unknown": {
+            "Components": {
+              "HyThiefOwnershipProof": {
+                "Owned": true,
+                "Scope": "FACTION",
+                "Faction": "Outlander"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

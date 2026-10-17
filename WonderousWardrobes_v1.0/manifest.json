@@ -1,0 +1,26 @@
+{
+  "Group": "FalkFirebeard",
+  "Name": "Wonderous Wardrobes",
+  "Version": "1.3.0-phase2b.1",
+  "Description": "Lootable Wardrobes",
+  "Authors": [
+    {
+      "Name": "Falk Firebeard",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Falk Interactive Studios",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "=0.7.2",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

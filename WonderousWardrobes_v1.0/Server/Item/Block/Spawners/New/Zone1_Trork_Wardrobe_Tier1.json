@@ -1,0 +1,15 @@
+{
+    "Entries":  [
+                    {
+                        "Name":  "Furniture_Lumberjack_Wardrobe",
+                        "Weight":  100,
+                        "Components":  {
+                                           "Components":  {
+                                                              "ItemContainerBlock":  {
+                                                                                         "Droplist":  "Zone1_Trork_Tier1"
+                                                                                     }
+                                                          }
+                                       }
+                    }
+                ]
+}
