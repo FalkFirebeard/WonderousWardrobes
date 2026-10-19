@@ -1,13 +1,17 @@
-# Optional HyThief compatibility
+# HyStash compatibility
 
-Wonderous Wardrobes owns wardrobe assets, generation, storage and native ownership metadata. HyThief owns successful-withdrawal detection, visual witnesses, caught notifications and native NPC responses. Neither mod requires the other, and no bridge plugin is used.
+HyStash 1.4.0 targets Hytale **=0.7.2**. Its current pack identity is **FalkFirebeard:HyStash**. See [upgrade instructions](HYSTASH_UPGRADE.md) when replacing Wonderous Wardrobes.
 
-Only supported newly generated locations receive ownership. Eligible contexts include Kweebec (33), Feran (10), Outlander (13), occupied Skeleton structures (157), and 2 shared-tradingpost NEARBY placements. These 215 placement opportunities retain their existing spawn/empty probabilities. Another 221 potential container locations remain unowned or excluded. Goblin, Klop and Breach-specific integration is excluded.
+## Optional HyThief 1.4.2 compatibility
 
-Ownership lives on the persistent container base or its native nonempty spawner outcome, never on decorative multiblock fillers. Four direct Feran base holders explicitly preserve their existing native 54-slot storage component alongside ownership.
+HyStash provides the wardrobe assets, contextual generation, native 54-slot storage and ownership metadata. HyThief recognizes supported owned wardrobes through native storage mechanics and that metadata, applying its existing successful-withdrawal detection, visual witness, native NPC response and pursuit-access rules. Both mods function independently; neither is a required dependency and no bridge plugin is used.
 
-Wardrobe item definitions do not receive global ownership, so ordinary player-placed wardrobes remain unowned. Previously generated wardrobes without metadata remain unowned; there is no retroactive ownership migration or PREFAB-instance property system.
+Supported newly generated locations include selected Kweebec, Feran, Outlander, Skeleton and shared nearby-owned contexts. Loot mappings, weights and empty-spawn chances remain unchanged. Ownership is attached to persistent container bases or native nonempty spawner outcomes, not decorative multiblock fillers. Player-placed wardrobes remain unowned. Previously unmarked wardrobes do not automatically gain ownership, and not every NPC is a witness.
 
-Witness coverage follows HyThief's existing supported roles. Not every NPC in an owning faction can detect theft. Opening/browsing, deposits and internal rearrangement do not constitute a successful withdrawal.
+Opening/browsing, deposits and rearranging are not successful withdrawals. Witness coverage and pursuit behavior follow HyThief's supported native roles and states. Special/scripted NPC configurations may require separate compatibility work.
 
-Verification includes native generation/storage/persistence and optional-mod matrices, native witnessed notification/guard response, and Falk's real-client confirmation of exactly one caught message and Razorleaf response on a standing witnessed withdrawal. The public 1.3.0 package differs from the verified prerelease only in version metadata.
+## Existing saves and other mods
+
+Block/item identifiers, container serialization and ownership components remain unchanged. Verified upgrade tests retained existing wardrobe contents and exact slot positions through save, exit and reload. Review explicit references to the former pack identity when upgrading. Every possible third-party configuration has not been tested.
+
+Existing vanilla wardrobes without container components do not automatically gain storage. Other mods overriding the same wardrobe definitions or prefabs may conflict. The current release keeps the existing 16 variants and does not replace other furniture categories.

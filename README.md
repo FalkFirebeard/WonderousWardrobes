@@ -1,34 +1,36 @@
-# Wonderous Wardrobes
+# HyStash
 
-**1.3.0 · Hytale =0.7.2 · Falk Interactive Studios**
+**HyStash 1.4.0 - Hytale 0.7.2 - Falk Interactive Studios**
 
-Turn decorative wardrobes into functional storage while preserving their familiar appearance and native opening/closing behavior. Explore supported generated structures for contextual loot, or place your own wardrobes for storage.
-
-## NEW — HyThief compatibility!
-
-Your wardrobes can now be part of Hytale's living world. With [HyThief](https://www.curseforge.com/hytale/mods/hythief) installed, appropriately owned wardrobes in supported generated structures participate in existing visual witness and container theft mechanics. Choose your opportunities carefully: taking valuables from protected storage can alert eligible witnesses and provoke native NPC reactions.
-
-**HyThief is optional.** Wonderous Wardrobes remains a fully standalone storage mod with all 16 variants and 54-slot inventories. Player-placed wardrobes remain unowned. Pre-existing generated wardrobes without ownership metadata are not automatically migrated, and not every NPC is a witness.
+HyStash is the new name for Wondrous Wardrobes, previously published as **Wonderous Wardrobes**. It is Falk Interactive Studios' standalone storage and inventory expansion mod, turning decorative wardrobes into functional storage while preserving their native appearance and opening/closing behavior.
 
 ## Features
 
-- 16 wardrobe variants with preserved models, textures and animations.
-- 54-slot inventories with native transfers and persistent storage.
-- Contextual generated loot; existing loot weights and empty chances preserved.
-- 220 production prefab overrides.
-- Native opening/closing and existing recipes.
-- No required third-party dependencies.
+- **16 wardrobe variants**, preserving their models, textures and animations.
+- **54 inventory slots per wardrobe**, with native transfers and persistent storage.
+- Contextual wardrobe spawning and loot that follows supported faction, structure and room contexts.
+- Existing recipes, loot weights and empty-spawn chances preserved.
+- **220 production prefab overrides** for supported structures.
+- Standalone operation with no required third-party dependencies.
+- Optional [HyThief 1.4.2](https://www.curseforge.com/hytale/mods/hythief) interoperability for supported owned-container theft interactions.
 
-## Installation
+HyThief recognizes supported owned HyStash wardrobes through native storage mechanics and ownership metadata. With both installed, successful withdrawals can be witnessed and trigger HyThief's existing theft consequences and native pursuit rules. Both mods function independently. Not every wardrobe is owned or every NPC a witness; player-placed wardrobes remain unowned.
 
-Download **WonderousWardrobes_v1.3.0.zip** from [GitHub releases](https://github.com/FalkFirebeard/WonderousWardrobes/releases/latest) or [CurseForge](https://www.curseforge.com/hytale/mods/wonderous-wardrobes). Place the ZIP in your Hytale Mods folder, remove an older active copy, and enable it for your world/server. Keep it as a ZIP asset pack. Requires Hytale 0.7.2. Back up your world before updating.
+## Install and upgrade from Wondrous Wardrobes 1.3.0
 
-Install HyThief separately if you want theft consequences; storage works without it. Mods overriding the same wardrobe definitions or prefabs may conflict.
+1. Back up the affected worlds and close the game/server.
+2. Remove or disable the old Wonderous Wardrobes package.
+3. Install **HyStash_v1.4.0.zip** from [GitHub releases](https://github.com/FalkFirebeard/WonderousWardrobes/releases/latest) or the [existing CurseForge project](https://www.curseforge.com/hytale/mods/wonderous-wardrobes).
+4. Enable **HyStash** in each affected world's mod configuration.
+5. Do not run both mod identities together.
+6. Load the original world normally.
 
-## Existing worlds
+The identity changes from `FalkFirebeard:Wonderous Wardrobes` to `FalkFirebeard:HyStash`. Existing block/item IDs and storage/ownership formats remain unchanged. Existing wardrobe contents and exact inventory slot positions were preserved in verified upgrade tests, including save, exit and reload. Every possible third-party configuration has not been tested; explicit server/mod references to the old identity need review. [Detailed upgrade instructions](Docs/HYSTASH_UPGRADE.md).
 
-Explore newly generated supported structures for the updated ownership behavior. Existing wardrobes without ownership metadata stay unowned. Existing vanilla wardrobes generated without storage components may not automatically become functional containers. No retroactive migration is included.
+## Existing worlds and compatibility
 
-[Release notes](Docs/RELEASE_1.3.0.md) · [Compatibility details](Docs/COMPATIBILITY.md) · [CurseForge](https://www.curseforge.com/hytale/mods/wonderous-wardrobes) · [HyThief](https://www.curseforge.com/hytale/mods/hythief)
+Requires Hytale **0.7.2** (exact target `=0.7.2`). Existing vanilla wardrobes generated without required container components do not automatically gain functional storage, and previously unowned wardrobes do not automatically gain ownership. Newly generated supported structures receive the established storage and contextual loot behavior. Mods overriding the same wardrobe definitions or prefabs may conflict.
 
-Developed by **Falk Interactive Studios**. Creator: **Falk Firebeard**. Part of the Firebeard Archives.
+[Release notes](Docs/RELEASE_1.4.0.md) - [Compatibility](Docs/COMPATIBILITY.md) - [HyThief](https://www.curseforge.com/hytale/mods/hythief)
+
+Developed by **Falk Interactive Studios**. Creator: **Falk Firebeard**.
